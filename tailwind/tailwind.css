@@ -1,0 +1,34 @@
+/*!
+Theme Name: Cultivo Patagonia Theme
+Theme URI: http://www.croop.cl
+Description: Wordpress Foundation and Compass base theme.
+Author: Marcelo Aguila
+Author URI: http://www.marceloag.cl
+Version: 1.2
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-mainmenu-container {
+  @apply w-full;
+}
+.menu-mainmenu-container ul {
+  @apply flex flex-row gap-4 justify-around items-center;
+}
+.menu-mainmenu-container ul li {
+  @apply uppercase;
+}
+
+h1 {
+  @apply text-[#2D1D0C] text-4xl my-4 font-serif;
+}
+h3 {
+  @apply text-[#2D1D0C] text-3xl my-3 font-serif;
+}
+h2 {
+  @apply text-[#2D1D0C] text-2xl my-2 font-serif;
+}
