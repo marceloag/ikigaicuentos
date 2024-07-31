@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-    <section class="w-full relative block bg-[url(./img/bgblobs.svg)] bg-no-repeat bg-cover grid grid-cols-2" id="hero">
+    <section class="w-full relative block bg-[url(./img/bgblobs.svg)] bg-no-repeat bg-cover flex flex-col items-center justify-center" id="hero">
+      <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2">
         <div>
           <h1 class="text-[#310C4F] font-black text-4xl">
             Cuentos infantiles en Kamishibai
@@ -8,12 +9,26 @@
             Mediante la literatura vincularemos amorosamente a niñ@s con su entorno natural.
           </p>
         </div>
-        <!--  -->
-        <img src="<?php bloginfo('template_directory'); ?>/img/butai.png" alt="Butai">
+        <img src="<?php bloginfo('template_directory'); ?>/img/butai.webp" alt="Butai">
+      </div>
     </section>
 
-    <div class="w-full flex flex-row items-center justify-center py-4 my-4">
-
+    <!-- Cuenta Cuentos -->
+    <div class="w-full flex flex-row items-center justify-center py-4 my-4 relative">
+        <div class="absolute z-0 w-full h-auto">
+          <img src="<?php bloginfo('template_directory'); ?>/img/decorador.avif" alt="Decorador">
+        </div>
+      <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2 relative z-10">
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentacuentos.webp" alt="Cuenta Cuentos">
+        <div>
+          <h2 class="text-[#310C4F] font-black text-4xl shadow-xl shadow-white">
+            Cuenta Cuentos
+          </h2>
+          <p>
+            En Ikigai, llevamos la magia de la narración de cuentos a un nivel completamente nuevo con la técnica del Kamishibai. Esta antigua forma de contar historias japonesa combina teatro y arte visual para sumergir a los pequeños en un viaje lleno de color y emociones.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Que hacemos -->
