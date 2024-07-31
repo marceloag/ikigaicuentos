@@ -84,7 +84,7 @@
       <figure class="w-60 ">
         <img src="<?php bloginfo('template_directory'); ?>/img/logo-ikigai.svg" alt="ikigai cuentos logo">
       </figure>
-      <nav class="flex flex-1 flex-row">
+      <nav class="flex flex-1 flex-row items-center justify-end">
             <?php wp_nav_menu( array('menu' => 'mainmenu' )); ?>
       </nav>
     </header>
