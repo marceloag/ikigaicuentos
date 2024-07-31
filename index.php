@@ -24,7 +24,7 @@
       <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2 relative z-10">
         <img src="<?php bloginfo('template_directory'); ?>/img/cuentacuentos.webp" alt="Cuenta Cuentos">
         <div>
-          <h2 class="text-[#310C4F] font-black text-4xl shadow-xl shadow-white">
+          <h2 class="text-[#310C4F] font-black text-4xl shadow-xl shadow-white font-sans">
             Cuenta Cuentos
           </h2>
           <p>
