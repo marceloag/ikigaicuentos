@@ -1,11 +1,11 @@
 <?php get_header(); ?>
     <section class="w-full relative block bg-[url(./img/bgblobs.svg)] bg-no-repeat bg-cover bg-bottom flex flex-col items-center justify-center" id="hero">
       <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2">
-        <div>
-          <h1 class="text-[#310C4F] font-black text-7xl font-sans text">
+        <div class="flex flex-col gap-4">
+          <h1 class="text-[#310C4F] font-black text-7xl font-sans text text-wrap max-w-96">
             Cuentos infantiles en Kamishibai
           </h1>
-          <p class="max-w-72">
+          <p class="max-w-96">
             Mediante la literatura vincularemos amorosamente a niñ@s con su entorno natural.
           </p>
           <a class="rounded-lg px-8 py-4 bg-[#E9E66B] text-[#4D266C] flex flex-row items-center justify-center gap-2">
