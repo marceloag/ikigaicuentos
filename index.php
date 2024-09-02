@@ -19,7 +19,7 @@
     <!-- Cuenta Cuentos -->
     <div class="w-full flex flex-row items-center justify-center py-4 my-4 relative">
         <div class="absolute z-0 w-full h-auto object-center">
-          <img src="<?php bloginfo('template_directory'); ?>/img/decorador.avif" alt="Decorador">
+          <img src="<?php bloginfo('template_directory'); ?>/img//decorador.avif" alt="Decorador">
         </div>
       <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2 relative z-10">
         <img src="<?php bloginfo('template_directory'); ?>/img/cuentacuentos.webp" alt="Cuenta Cuentos">
@@ -37,9 +37,9 @@
       </div>
     </div>
 
-    <!-- Que hacemos -->
-    <section class="w-full flex flex-row justify-center items-center">
-     
+    <!-- Fotos -->
+    <section class="w-full">
+      <img src="<?php bloginfo('template_directory'); ?>/img/tiraimagenes.avif" alt="Imagenes cuenta cuentos">
     </section>
 
     <!-- Distribuidores -->
