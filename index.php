@@ -2,7 +2,7 @@
     <section class="w-full relative block bg-[url(./img/bgblobs.svg)] bg-no-repeat bg-cover bg-bottom flex flex-col items-center justify-center" id="hero">
       <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2">
         <div class="flex flex-col gap-4 w-auto">
-          <h1 class="text-[#310C4F] font-black text-7xl font-sans text text-wrap">
+          <h1 class="text-[#310C4F] font-black text-2xl md:text-7xl font-sans text text-wrap">
             Cuentos infantiles en Kamishibai
           </h1>
           <p class="max-w-96">
