@@ -39,11 +39,29 @@
 
     <!-- Fotos -->
     <section class="w-full">
-      <img src="<?php bloginfo('template_directory'); ?>/img/tiraimagenes.avif" alt="Imagenes cuenta cuentos">
+      <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b1.jpg/tiraimagenes.avif" alt="Imagenes cuenta cuentos" class="w-full">
     </section>
 
     <!-- Distribuidores -->
-    <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
+    <section class="grid grid-cols-3">
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b1.jpg">
+      </div>
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b2.jpg">
+      </div>
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b3.jpg">
+      </div>
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b4.jpg">
+      </div>
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b5.jpg">
+      </div>
+      <div>
+        <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b6.jpg">
+      </div>
       
     </section>
 
