@@ -8,8 +8,8 @@
           <p class="max-w-96">
             Mediante la literatura vincularemos amorosamente a niñ@s con su entorno natural.
           </p>
-          <a class="flex flex-row w-auto rounded-lg px-8 py-4 bg-[#E9E66B] text-[#4D266C]  items-center justify-center gap-2">
-            Ver Más <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d='m18 8 4 4m0 0-4 4m4-4H2'/></svg>
+          <a class="flex max-w-xs rounded-lg px-8 py-4 bg-[#E9E66B] text-[#4D266C] items-center justify-center gap-2">
+              Ver Más <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m18 8 4 4m0 0-4 4m4-4H2"></path></svg>
           </a>
         </div>
         <img src="<?php bloginfo('template_directory'); ?>/img/butai.webp" alt="Butai">
