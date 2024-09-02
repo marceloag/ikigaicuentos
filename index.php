@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section class="w-full relative block bg-[url(./img/bgblobs.svg)] bg-no-repeat bg-cover bg-bottom flex flex-col items-center justify-center" id="hero">
-      <div class="flex flex-col items-center justify-center w-10/12 grid grid-cols-2">
+      <div class="items-center justify-center w-10/12 md:grid md:grid-cols-2 flex flex-col">
         <div class="flex flex-col gap-4 w-auto">
           <h1 class="text-[#310C4F] font-black text-2xl md:text-7xl font-sans text text-wrap">
             Cuentos infantiles en Kamishibai
@@ -17,7 +17,7 @@
     </section>
 
     <!-- Cuenta Cuentos -->
-    <div class="w-full flex flex-row items-center justify-center py-4 my-4 relative">
+    <div class="w-full flex flex-col md:flex-row items-center justify-center py-4 my-4 relative">
         <div class="absolute z-0 w-full h-auto object-center">
           <img src="<?php bloginfo('template_directory'); ?>/img//decorador.avif" alt="Decorador">
         </div>
