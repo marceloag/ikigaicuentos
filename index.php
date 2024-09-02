@@ -39,11 +39,11 @@
 
     <!-- Fotos -->
     <section class="w-full">
-      <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b1.jpg/tiraimagenes.avif" alt="Imagenes cuenta cuentos" class="w-full">
+      <img src="<?php bloginfo('template_directory'); ?>/img/tiraimagenes.avif" alt="Imagenes cuenta cuentos" class="w-full">
     </section>
 
     <!-- Distribuidores -->
-    <section class="grid grid-cols-3">
+    <section class="grid grid-cols-3 gap-1">
       <div>
         <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b1.jpg">
       </div>
@@ -62,7 +62,6 @@
       <div>
         <img src="<?php bloginfo('template_directory'); ?>/img/cuentos/b6.jpg">
       </div>
-      
     </section>
 
     <!-- Galería -->
