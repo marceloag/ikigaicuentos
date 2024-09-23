@@ -19,8 +19,14 @@ Version: 1.2
   gap: 1rem !important;
   color: #5c5c5c !important;
 }
-.menu-mainmenu-container ul li a,
+
 #menu-mainmenu li > a {
   color: #5c5c5c !important;
   font-family: 'elza', sans-serif !important;
+}
+
+#menu-mainmenu li &:last-child {
+  background-color: #4d266c;
+  color: white;
+  border-radius: 1em;
 }
