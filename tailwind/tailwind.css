@@ -15,6 +15,7 @@ Version: 1.2
   @apply w-full;
 }
 .menu-mainmenu-container ul {
+  @apply justify-end;
 }
 .menu-mainmenu-container ul li a,
 #menu-mainmenu li a {
