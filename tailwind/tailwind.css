@@ -1,4 +1,4 @@
-/*!
+/*
 Theme Name: ikigai Cuentos
 Theme URI: http://www.croop.cl
 Description: Wordpress Foundation and Compass base theme.
@@ -15,12 +15,12 @@ Version: 1.2
   @apply w-full;
 }
 #menu-mainmenu {
-  @apply justify-end !important;
+  @apply justify-end;
   gap: 1rem !important;
   color: #5c5c5c !important;
 }
 
-#menu-mainmenu li > a {
+#menu-mainmenu li a {
   color: #5c5c5c !important;
   font-family: 'elza', sans-serif !important;
 }
