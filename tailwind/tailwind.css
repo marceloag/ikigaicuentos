@@ -30,3 +30,7 @@ Version: 1.2
   color: white;
   border-radius: 1em;
 }
+
+maincontent h1 {
+  @apply text-[#310C4F] font-black text-2xl shadow-xl shadow-white font-sans;
+}
