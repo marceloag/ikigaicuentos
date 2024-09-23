@@ -15,8 +15,8 @@ Version: 1.2
   @apply w-full;
 }
 .menu-mainmenu-container ul {
-  @apply flex flex-row gap-4 justify-around items-center;
+  @apply flex flex-row gap-4 justify-between items-center;
 }
 .menu-mainmenu-container ul li {
-  @apply uppercase;
+  font-family: 'elza', sans-serif;
 }

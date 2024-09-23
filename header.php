@@ -70,6 +70,8 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<!-- Font -->
+  <link rel="stylesheet" href="https://use.typekit.net/wtt0mvk.css">
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/icon.ico" />
