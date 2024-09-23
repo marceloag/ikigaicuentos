@@ -15,9 +15,9 @@ Version: 1.2
   @apply w-full;
 }
 #menu-mainmenu {
-  @apply justify-end;
-  gap: 1rem;
-  color: #5c5c5c;
+  @apply justify-end !important;
+  gap: 1rem !important;
+  color: #5c5c5c !important;
 }
 .menu-mainmenu-container ul li a,
 #menu-mainmenu li > a {
