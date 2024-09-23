@@ -15,7 +15,6 @@ Version: 1.2
   @apply w-full;
 }
 .menu-mainmenu-container ul {
-  @apply flex flex-row gap-4 items-end;
 }
 .menu-mainmenu-container ul li a,
 #menu-mainmenu li a {
