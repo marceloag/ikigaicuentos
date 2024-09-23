@@ -14,8 +14,9 @@ Version: 1.2
 .menu-mainmenu-container {
   @apply w-full;
 }
-.menu-mainmenu-container ul {
+#menu-mainmenu {
   @apply justify-end;
+  color: #5c5c5c;
 }
 .menu-mainmenu-container ul li a,
 #menu-mainmenu li a {
