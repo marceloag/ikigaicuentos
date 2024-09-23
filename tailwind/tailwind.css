@@ -16,10 +16,11 @@ Version: 1.2
 }
 #menu-mainmenu {
   @apply justify-end;
+  gap: 1rem;
   color: #5c5c5c;
 }
 .menu-mainmenu-container ul li a,
-#menu-mainmenu li a {
-  color: #5c5c5c;
-  font-family: 'elza', sans-serif;
+#menu-mainmenu li > a {
+  color: #5c5c5c !important;
+  font-family: 'elza', sans-serif !important;
 }
