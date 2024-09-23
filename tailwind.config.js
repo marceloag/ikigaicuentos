@@ -2,5 +2,5 @@
 module.exports = {
   content: ['./*.{html,js,php}'],
   theme: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
