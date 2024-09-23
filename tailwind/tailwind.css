@@ -31,6 +31,10 @@ Version: 1.2
   border-radius: 1em;
 }
 
-.maincontent h1 {
+.maincontent h1,
+.titulo {
   @apply text-[#310C4F] font-black text-2xl shadow-xl shadow-white font-sans;
+}
+.maincontent h2 {
+  @apply text-[#310C4F] font-black text-xl shadow-xl shadow-white font-sans;
 }
