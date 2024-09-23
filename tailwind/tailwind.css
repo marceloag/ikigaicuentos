@@ -17,6 +17,7 @@ Version: 1.2
 .menu-mainmenu-container ul {
   @apply flex flex-row gap-4 justify-between items-center;
 }
-.menu-mainmenu-container ul li {
+.menu-mainmenu-container ul li a {
+  color: #5c5c5c;
   font-family: 'elza', sans-serif;
 }
