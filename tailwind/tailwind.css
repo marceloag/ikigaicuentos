@@ -15,9 +15,10 @@ Version: 1.2
   @apply w-full;
 }
 .menu-mainmenu-container ul {
-  @apply flex flex-row gap-4 justify-between items-center;
+  @apply flex flex-row gap-4 items-end;
 }
-.menu-mainmenu-container ul li a {
+.menu-mainmenu-container ul li a,
+#menu-mainmenu li a {
   color: #5c5c5c;
   font-family: 'elza', sans-serif;
 }
