@@ -7,7 +7,7 @@
                 <div class="titulo mx-3">
                     <h1><?php the_title();?></h1>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 prose">
                     <?php the_content();?>
                 </div>
             </div>
