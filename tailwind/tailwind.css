@@ -16,11 +16,9 @@ Version: 1.2
 }
 #menu-mainmenu {
   @apply justify-end;
-  gap: 1rem !important;
-  color: #5c5c5c !important;
+  color: #5c5c5c;
   justify-content: flex-end;
   gap: 1rem !important;
-  color: #5c5c5c !important;
   display: flex;
   align-items: center;
 }
@@ -35,7 +33,7 @@ Version: 1.2
   padding: 0.3em;
   border-radius: 0.4em;
   padding: 0.5em;
-  color: white;
+  color: white !important;
 }
 
 .maincontent h1,
